@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  max-height: 100vh; /* this keeps the screen to screen-size, no scrolling */
+  overflow: none; 
+  
+  }
+
+body {
+  border: 5%;
+  background-image: linear-gradient(to right, rgb(180, 41, 122), #daccd0);
+  display: flex; 
+  flex-wrap: wrap;
+  overflow: hidden; /* prevents the page from being scrollable */
+  /* justify-content: space-evenly; */
+}
+
+
+#FakeButton {
+
+  height: 50px;
+  width: 150px; 
+  background-color: red;
+  text-align: center;
+  border-radius: 0%;
+  position: absolute; /* no longer constrained to its relative container - can position anywhere within container*/
+  top: 0px;
+  left: 0px;
+}
